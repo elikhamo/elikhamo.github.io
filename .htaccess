@@ -1,0 +1,8 @@
+# Enable URL rewriting
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+</IfModule>
+
+# Custom 404 error page
+ErrorDocument 404 /404.html
